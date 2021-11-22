@@ -85,14 +85,17 @@ img{
     margin: 1%;
     background-color: rgba(245, 245, 220, 0.8);
 }
-.schimb{
+.schimb, .teze{
     padding: 5px;
     width: 400px;
-    height: 200px;
+    height: 260px;
     margin: 50px auto;
     background-color: rgba(214, 229, 190, 0.8);
     border: 2px solid gray;
     border-radius: 10px;
+}
+.i-teze{
+    list-style-image: url("../images/book.png");
 }
 h4{
     margin: 5px 0px;
