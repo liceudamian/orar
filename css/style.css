@@ -89,7 +89,7 @@ img{
     padding: 5px;
     width: 400px;
     height: 260px;
-    margin: 50px auto;
+    margin: 20px auto;
     background-color: rgba(214, 229, 190, 0.8);
     border: 2px solid gray;
     border-radius: 10px;
@@ -145,7 +145,6 @@ h4{
     }
     .teze{
         width: 80%;
-        height: 340px;
+        height: 300px;
     }
-    
 }
