@@ -31,6 +31,12 @@ header span{
     color: white;
     padding-left: 30%;
 }
+.an{
+    position: fixed;
+    width: 6%;
+    right: -30px;
+    top: -55px;
+}
 .page-box{
     padding-top: 75px;
 }
@@ -112,6 +118,12 @@ h4{
         margin-right: 8px;
         display: block;
     } */
+    .an{
+        position: fixed;
+        width: 18%;
+        right: -22px;
+        top: -20px;
+    }
     aside{
         position: static;
         margin: 0px;
