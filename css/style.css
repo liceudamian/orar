@@ -33,9 +33,9 @@ header span{
 }
 .an{
     position: fixed;
-    width: 6%;
-    right: -30px;
-    top: -55px;
+    width: 17%;
+    right: 0px;
+    top: 2px;
 }
 .page-box{
     padding-top: 75px;
@@ -120,9 +120,9 @@ h4{
     } */
     .an{
         position: fixed;
-        width: 18%;
-        right: -22px;
-        top: -20px;
+        width: 45%;
+        right: -80px;
+        top: 2px;
     }
     aside{
         position: static;
