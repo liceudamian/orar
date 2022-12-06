@@ -1,10 +1,11 @@
-body{
-    background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../images/fon.jpg");
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../images/fon.jpg");
     background-size: cover;
     background-attachment: fixed;
     margin: 0px;
 }
-header{
+
+header {
     height: 75px;
     width: 100%;
     background-color: rgb(124, 29, 29);
@@ -13,39 +14,55 @@ header{
     display: flex;
 
 }
-header span{
-    display:inline-flex;
+
+header span {
+    display: inline-flex;
     align-items: center;
     width: fit-content;
 }
-.logo{
+
+.logo {
     height: 65px;
     width: fit-content;
     padding-top: 5px;
     padding-left: 5px;
-    
+
 }
-.titlu{
+
+.titlu {
     font-size: 24px;
     font-weight: bold;
     color: white;
     padding-left: 30%;
 }
-.page-box{
+
+.page-box {
     padding-top: 75px;
 }
-main{
+
+main {
     width: 70%;
     margin: 0px 30% 10px 1%;
 }
-aside{
+
+aside {
     width: 30%;
     position: fixed;
     display: block;
     margin: 0px 1% 10px 70%;
     padding-top: 1%;
+    z-index: -1;
 }
-#text-data{
+
+.decor{
+    position: fixed;
+    right: -5px;
+    top: -55px;
+    width: 15%;
+    rotate: 40deg;
+}
+
+#text-data {
     text-align: center;
     color: black;
     font-weight: bolder;
@@ -53,30 +70,37 @@ aside{
     margin-bottom: 3%;
     background-color: rgba(255, 235, 205, 0.8);
 }
-.centered{
+
+.centered {
     text-align: center;
 }
-.clase{
+
+.clase {
     margin: 2% 5px;
     text-align: center;
 }
-.clase button{
+
+.clase button {
     margin: 2px;
 }
-.activ{
+
+.activ {
     background-color: rgb(186, 231, 245);
 }
-img{
-   width: 100%;
-   margin-left: auto;
-   margin-left: auto;
+
+img {
+    width: 100%;
+    margin-left: auto;
+    margin-left: auto;
 }
-.row{
+
+.row {
     min-height: 200px;
     display: flex;
     flex-wrap: wrap;
 }
-.zi{
+
+.zi {
     border: 2px solid gray;
     border-radius: 5%;
     padding: 0px 5px 5px 10px;
@@ -85,7 +109,9 @@ img{
     margin: 1%;
     background-color: rgba(245, 245, 220, 0.8);
 }
-.schimb, .teze{
+
+.schimb,
+.teze {
     padding: 5px;
     width: 420px;
     height: 300px;
@@ -94,17 +120,22 @@ img{
     border: 2px solid gray;
     border-radius: 10px;
 }
-.i-teze{
+
+.i-teze {
     list-style-image: url("../images/book.png");
 }
-h4{
+
+h4 {
     margin: 5px 0px;
     text-align: center;
 }
-#cal-btn{
+
+#cal-btn {
     display: none;
 }
-@media (max-width: 768px){
+
+@media (max-width: 768px) {
+
     /* #cal-btn{
         color:white;
         font-size: 24px;
@@ -112,38 +143,53 @@ h4{
         margin-right: 8px;
         display: block;
     } */
-    aside{
+    aside {
         position: static;
         margin: 0px;
         width: 100%;
     }
-    .page-box{
+
+    .page-box {
         width: 100%;
     }
-    main{
+
+    main {
         margin: 0px;
         width: 100%;
     }
-    .titlu{
+
+    .titlu {
         font-size: 18px;
         width: 100%;
         padding-left: 30px;
     }
-    .logo{
+
+    .logo {
         height: 40px;
         left: 5px;
     }
-    #text-data{
+
+    .decor{
+        right: -8px;
+        top: -23px;
+        width: 30%;
+        rotate: 40deg;
+    }
+
+    #text-data {
         font-size: 18px;
     }
-    .zi{
+
+    .zi {
         width: 70%;
         margin: 5px auto;
     }
-    .schimb{
+
+    .schimb {
         width: 70%;
     }
-    .teze{
+
+    .teze {
         width: 80%;
         height: 300px;
     }
