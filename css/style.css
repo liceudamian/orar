@@ -57,9 +57,9 @@ aside {
 .decor{
     position: fixed;
     right: -5px;
-    top: -55px;
-    width: 15%;
-    rotate: 40deg;
+    top: -10px;
+    width: 8%;
+    rotate: 25deg;
 }
 
 #text-data {
@@ -171,9 +171,8 @@ h4 {
 
     .decor{
         right: -8px;
-        top: -23px;
-        width: 30%;
-        rotate: 40deg;
+        top: -5px;
+        width: 20%;
     }
 
     #text-data {
